@@ -1,0 +1,369 @@
+span.crest-product-icon {
+    float: right;
+}
+/* Global CSS */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-share-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  .social-share-buttons span {
+    margin-right: 10px;
+  }
+  
+  .social-share-buttons a {
+    margin-right: 10px;
+  }
+  
+  img, video {
+    width: 100%;
+    height: 500px;
+}
+  i.fa {
+    font-size: 30px;
+
+    font-size: 30px; /* Change this value to make the icons bigger or smaller */
+    margin-right: 10px; /* Adds some space between icons */
+  }
+  img {
+    width: 100%;
+    max-height: 500px;
+}
+
+   /* Style the form container */
+   .form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the form fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+select {
+    height: 38px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the Gravatar link */
+.description a {
+    color: #007bff;
+    text-decoration: none;
+}
+.form-group img {
+    height: 100px;
+    width: 100px;
+}
+select.form-control {
+    font-size: 16px;
+    padding: 10px;
+  }
+  select {
+    height: 50px;
+  }
+  input[type="submit"] {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .main-navigation ul li {
+    margin-right: 10px;
+  }
+  
+  .main-navigation ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .main-navigation ul li a:hover {
+    color: #007bff;
+  }
+  
+  .main-navigation ul li.current-menu-item > a {
+    color: #007bff;
+  }
+  input#user_pass, input#email, input#password {
+    width: 100%;
+}
+article.post {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-header {
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-meta {
+    margin: 0;
+  }
+  
+  .ast-article-post .entry-title {
+    margin: 0;
+  }
+  
+  .ast-article-post .entry-title a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .ast-article-post .entry-title a:hover {
+    color: #0066c0;
+  }
+  
+  .ast-article-post .entry-content {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .ast-article-post .entry-content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ast-article-post .entry-content .read-more {
+    margin-top: 1.5rem;
+  }
+  
+  .ast-article-post .entry-content .read-more a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .ast-article-post .entry-content .read-more a:hover {
+    color: #333;
+  }
+
+  article.post {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-header {
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-meta {
+    margin: 0;
+  }
+  
+  .ast-article-post .entry-title {
+    margin: 0;
+  }
+  
+  .ast-article-post .entry-title a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .ast-article-post .entry-title a:hover {
+    color: #0066c0;
+  }
+  
+  .ast-article-post .entry-content {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ast-article-post .entry-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .ast-article-post .entry-content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ast-article-post .entry-content .read-more {
+    margin-top: 1.5rem;
+  }
+  
+  .ast-article-post .entry-content .read-more a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .ast-article-post .entry-content .read-more a:hover {
+    color: #333;
+  }
+
+  ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+  }
+  
+  li {
+    margin-bottom: 20px; /* add some spacing between list items */
+    padding: 10px; /* add some padding to the list item content */
+  }
+  
+  a {
+    color: #333; /* set the link color */
+    text-decoration: none; /* remove the underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* add underline on hover */
+  }
+  
+  .post-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .post-date {
+    margin-right: 10px;
+  }
+  
+  .post-category a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .post-tags a {
+    background-color: #f2f2f2;
+    color: #666;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .ast-desktop .ast-primary-header-bar .main-header-menu > .menu-item {
+    line-height: normal;
+}
+
+/* Home */
+#post-filter-form div {
+  display: inline-block;
+  margin-right: 10px;
+}  
+
+#post-filter-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-post {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main-post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.main-post h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.main-post .img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-post .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-post p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.main-post p.categories {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.main-post p.categories a,
+.main-post p.tags a,
+.main-post p.destinations a,
+.main-post p.themes a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.main-post p:first-of-type {
+  font-style: italic;
+}
+.ast-comment-avatar-wrap img {
+  width: 50px;
+  max-height: 50px;
+}
+  
+  
